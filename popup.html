@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <style>
       body{ width: 250px; }
-      button {
-        background: none; border: 0px; color: #888; font-size: 15px; cursor: pointer;
-      }
       button:focus{background-color:#D1EDC9;}
       button.col {
         height: 30px; width: 32%; outline: none;
@@ -26,13 +23,13 @@
       <button class="col" id="stop">stop</button>
       <button class="col" id="clean">clean</button>
     </div>
-    <p><span id="message"></span></p>
+    <input type="text" id="formatted" style="opacity:0;position:absolute;z-index:-1">
 
-    <!-- desafio extra
     <div>
-      <button class="full" id="history">ver histórico</button>
+      <button class="full" id="showHistory">ver histórico</button>
     </div>
-    -->
+    <div id="history"></div>
+    
     <script src="popup.js" charset="utf-8"></script>
   </body>
 </html>
