@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body{ width: 250px; }
+      button {
+        background: none; border: 0px; color: #888; font-size: 15px; cursor: pointer;
+      }
+      button:focus{background-color:#D1EDC9;}
+      button.col {
+        height: 30px; width: 32%; outline: none;
+      }
+      button.full {
+        height: 30px; width: 100%; outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Atividade: <span id="activity"></span></p>
+    <p>Iniciado em: <span id="started"></span></p>
+    <p>Finalizado em: <span id="finished"></span></p>
+    <p>Duração: <span id="duration"></span></p>
+    <div>
+      <button class="col" id="start">start</button>
+      <button class="col" id="stop">stop</button>
+      <button class="col" id="clean">clean</button>
+    </div>
+    <p><span id="message"></span></p>
+
+    <!-- desafio extra
+    <div>
+      <button class="full" id="history">ver histórico</button>
+    </div>
+    -->
+    <script src="popup.js" charset="utf-8"></script>
+  </body>
+</html>

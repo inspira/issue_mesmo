@@ -1,0 +1,27 @@
+{
+  "name": "Issue mesmo!",
+  "version": "1.0",
+  "description": "projeto base pro coding dojo",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/kitten_16.png",
+      "32": "images/kitten_32.png",
+      "48": "images/kitten_48.png",
+      "128": "images/kitten_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/kitten_16.png",
+    "32": "images/kitten_32.png",
+    "48": "images/kitten_48.png",
+    "128": "images/kitten_128.png"
+  },
+  "manifest_version": 2
+}
